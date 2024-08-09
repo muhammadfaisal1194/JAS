@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inline-flex {
+  --tw-ring-offset-color: #000000;
+  --tw-ring-inset: var(--tw-ring-offset-color);
+}
+
+@font-face {
+  font-family: RobotoCondensed;
+  src: url(../../Roboto_Condensed/static/RobotoCondensed-Medium.ttf);
+}
+
+.abc {
+  font-family: RobotoCondensed;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
