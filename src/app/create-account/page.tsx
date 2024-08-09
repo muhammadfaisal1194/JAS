@@ -99,7 +99,7 @@ const Createaccount = () => {
                                 required
                               />
                               <p>
-                                I've read and agree with your{" "}
+                                I&apos;ve read and agree with your{" "}
                                 <span className="text-blue-600">
                                   Terms of Services
                                 </span>
@@ -169,7 +169,7 @@ const Createaccount = () => {
                                 required
                               />
                               <p>
-                                I've read and agree with your{" "}
+                                I&apos;ve read and agree with your{" "}
                                 <span className="text-blue-600">
                                   Terms of Services
                                 </span>

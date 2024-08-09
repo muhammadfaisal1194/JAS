@@ -78,10 +78,10 @@ const Page = () => {
               <span className="text-gray-600 grid gap-2">
                 Velstar is a Shopify Plus agency, and we partner with brands to
                 help them grow, we also do the same with our people! <br /> Here
-                at Velstar, we don't just make websites, we create exceptional
-                digital experiences that consumers love. Our team of designers,
-                developers, strategists, and creators work together to push
-                brands to the next level. From Platform Migration, User
+                at Velstar, we don&apos;t just make websites, we create
+                exceptional digital experiences that consumers love. Our team of
+                designers, developers, strategists, and creators work together
+                to push brands to the next level. From Platform Migration, User
                 Experience & User Interface Design, to Digital Marketing, we
                 have a proven track record in delivering outstanding eCommerce
                 solutions and driving sales for our clients.
