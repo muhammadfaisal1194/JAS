@@ -18,6 +18,7 @@ import { MdEmail } from "react-icons/md";
 import Footer from "@/components/footer";
 import Pagination from "@mui/material/Pagination";
 import { GrUserExpert } from "react-icons/gr";
+import Image from "next/image";
 
 const Profile = () => {
   return (
@@ -41,14 +42,14 @@ const Profile = () => {
       <div>
         <div className="relative flex flex-col items-center h-[440px] px-10 bg-white">
           <div className="w-full h-96 overflow-hidden">
-            <img
+            <Image
               src="https://cdn.shopify.com/s/files/1/0579/9945/8475/files/Japan_Electronics_PWD.jpg?v=1664967213"
               alt=""
               className="w-full"
             />
           </div>
           <div className="absolute flex rounded-lg p-6 bottom-0 shadow items-center w-[80%] gap-4 bg-white">
-            <img
+            <Image
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvLDl-14QkMRLK2OTkL_RLBXKPBzBg8eom9A&s"
               alt=""
               className="w-16 h-16 rounded-xl border"
@@ -80,7 +81,7 @@ const Profile = () => {
               <span className="text-gray-600 grid gap-2">
                 Velstar is a Shopify Plus agency, and we partner with brands to
                 help them grow, we also do the same with our people! <br /> Here
-                at Velstar, we don't just make websites, we create exceptional
+                at Velstar, we dont just make websites, we create exceptional
                 digital experiences that consumers love. Our team of designers,
                 developers, strategists, and creators work together to push
                 brands to the next level. From Platform Migration, User
@@ -99,7 +100,7 @@ const Profile = () => {
                   <h1 className="font-medium text-xl">Previous Work</h1>
                   <div className="flex flex-col gap-4">
                     <div className="flex items-center gap-4 p-4 shadow">
-                      <img
+                      <Image
                         src="https://img.freepik.com/premium-photo/male-electrician-works-electrical-network-repair-ai-generated_406939-9533.jpg"
                         alt=""
                         className="w-24 h-24 rounded-md"
@@ -122,7 +123,7 @@ const Profile = () => {
                       </div>
                     </div>
                     <div className="flex items-center gap-4 p-4 shadow">
-                      <img
+                      <Image
                         src="https://img.freepik.com/premium-photo/male-electrician-works-electrical-network-repair-ai-generated_406939-9533.jpg"
                         alt=""
                         className="w-24 h-24 rounded-md"
@@ -145,7 +146,7 @@ const Profile = () => {
                       </div>
                     </div>
                     <div className="flex items-center gap-4 p-4 shadow">
-                      <img
+                      <Image
                         src="https://img.freepik.com/premium-photo/male-electrician-works-electrical-network-repair-ai-generated_406939-9533.jpg"
                         alt=""
                         className="w-24 h-24 rounded-md"
@@ -245,7 +246,7 @@ const Profile = () => {
             <div className="flex items-center w-full gap-6">
               <div className="border w-full shadow hover:shadow-lg hover:bg-white p-8 h-fit grid gap-2">
                 <div className="flex items-center gap-4">
-                  <img
+                  <Image
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGhWJtaM-Wd4n1pEorbqbvvldzG6m0W0KBsw&s"
                     alt=""
                     className="w-16 h-16 rounded-full border"
@@ -273,7 +274,7 @@ const Profile = () => {
               </div>
               <div className="border w-full shadow hover:shadow-lg hover:bg-white p-8 h-fit grid gap-2">
                 <div className="flex items-center gap-4">
-                  <img
+                  <Image
                     src="https://cdn.shopify.com/s/files/1/0579/9945/8475/files/Japan_electronics_gulnoor_market_murree_road.jpg?v=1665212766"
                     alt=""
                     className="w-16 h-16 rounded-full border"
@@ -303,7 +304,7 @@ const Profile = () => {
             <div className="flex items-center w-full gap-6">
               <div className="border w-full shadow hover:shadow-lg hover:bg-white p-8 h-fit grid gap-2">
                 <div className="flex items-center gap-4">
-                  <img
+                  <Image
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvLDl-14QkMRLK2OTkL_RLBXKPBzBg8eom9A&s"
                     alt=""
                     className="w-16 h-16 rounded-full border"
@@ -331,7 +332,7 @@ const Profile = () => {
               </div>
               <div className="border w-full shadow hover:shadow-lg hover:bg-white p-8 h-fit grid gap-2">
                 <div className="flex items-center gap-4">
-                  <img
+                  <Image
                     src="https://lh3.googleusercontent.com/p/AF1QipOq6rQK80nP7fKzips42NProa857bA0ChelPaYx=s1600-w228"
                     alt=""
                     className="w-16 h-16 rounded-full border"

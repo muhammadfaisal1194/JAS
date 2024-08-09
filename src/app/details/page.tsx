@@ -7,6 +7,7 @@ import { GiSettingsKnobs } from "react-icons/gi";
 import { FaLocationDot } from "react-icons/fa6";
 import Pagination from "@mui/material/Pagination";
 import Footer from "@/components/footer";
+import Image from "next/image";
 
 const Page = () => {
   const catMenu = useRef<HTMLDivElement | null>(null);
@@ -115,7 +116,7 @@ const Page = () => {
                 </p>
               </div>
               <div className="flex items-center gap-4">
-                <img
+                <Image
                   src="/download-removebg-preview.png"
                   alt=""
                   className="w-14 h-14 rounded-full border"
@@ -141,7 +142,7 @@ const Page = () => {
                 </p>
               </div>
               <div className="flex items-center gap-4">
-                <img
+                <Image
                   src="/download-removebg-preview.png"
                   alt=""
                   className="w-14 h-14 rounded-full border"
@@ -167,7 +168,7 @@ const Page = () => {
                 </p>
               </div>
               <div className="flex items-center gap-4">
-                <img
+                <Image
                   src="/download-removebg-preview.png"
                   alt=""
                   className="w-14 h-14 rounded-full border"
@@ -195,7 +196,7 @@ const Page = () => {
                 </p>
               </div>
               <div className="flex items-center gap-4">
-                <img
+                <Image
                   src="/download-removebg-preview.png"
                   alt=""
                   className="w-14 h-14 rounded-full border"
@@ -221,7 +222,7 @@ const Page = () => {
                 </p>
               </div>
               <div className="flex items-center gap-4">
-                <img
+                <Image
                   src="/download-removebg-preview.png"
                   alt=""
                   className="w-14 h-14 rounded-full border"
@@ -247,7 +248,7 @@ const Page = () => {
                 </p>
               </div>
               <div className="flex items-center gap-4">
-                <img
+                <Image
                   src="/download-removebg-preview.png"
                   alt=""
                   className="w-14 h-14 rounded-full border"

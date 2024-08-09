@@ -15,6 +15,7 @@ import { FaTwitter } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Footer from "@/components/footer";
 import Pagination from "@mui/material/Pagination";
+import Image from "next/image";
 
 const Page = () => {
   return (
@@ -41,7 +42,7 @@ const Page = () => {
         <div>
           <div className="flex justify-between p-4">
             <div className="flex items-center gap-4">
-              <img
+              <Image
                 src="https://st3.depositphotos.com/43745012/44906/i/450/depositphotos_449066958-stock-photo-financial-accounting-logo-financial-logo.jpg"
                 alt=""
                 className="w-24 h-24 rounded-full border"
@@ -229,7 +230,7 @@ const Page = () => {
                   </p>
                 </div>
                 <div className="flex items-center gap-4">
-                  <img
+                  <Image
                     src="/download-removebg-preview.png"
                     alt=""
                     className="w-14 h-14 rounded-full border"
@@ -257,7 +258,7 @@ const Page = () => {
                   </p>
                 </div>
                 <div className="flex items-center gap-4">
-                  <img
+                  <Image
                     src="/download-removebg-preview.png"
                     alt=""
                     className="w-14 h-14 rounded-full border"
@@ -285,7 +286,7 @@ const Page = () => {
                   </p>
                 </div>
                 <div className="flex items-center gap-4">
-                  <img
+                  <Image
                     src="/download-removebg-preview.png"
                     alt=""
                     className="w-14 h-14 rounded-full border"
@@ -315,7 +316,7 @@ const Page = () => {
                   </p>
                 </div>
                 <div className="flex items-center gap-4">
-                  <img
+                  <Image
                     src="/download-removebg-preview.png"
                     alt=""
                     className="w-14 h-14 rounded-full border"
@@ -343,7 +344,7 @@ const Page = () => {
                   </p>
                 </div>
                 <div className="flex items-center gap-4">
-                  <img
+                  <Image
                     src="/download-removebg-preview.png"
                     alt=""
                     className="w-14 h-14 rounded-full border"
@@ -371,7 +372,7 @@ const Page = () => {
                   </p>
                 </div>
                 <div className="flex items-center gap-4">
-                  <img
+                  <Image
                     src="/download-removebg-preview.png"
                     alt=""
                     className="w-14 h-14 rounded-full border"

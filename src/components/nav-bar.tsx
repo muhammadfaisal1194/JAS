@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { IoSearch } from "react-icons/io5";
 
@@ -5,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="flex bg-[#f6f6f6] justify-between items-center pt-6 pb-10 px-10 ">
       <div>
-        <img
+        <Image
           src="/download-removebg-preview.png"
           alt=""
           className="w-32 h-16"

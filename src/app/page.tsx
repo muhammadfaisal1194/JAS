@@ -7,6 +7,7 @@ import Howtoapply from "@/components/how-to-apply";
 import { FaArrowRight } from "react-icons/fa6";
 import { Rating, RatingStar } from "flowbite-react";
 import Footer from "@/components/footer";
+import Image from "next/image";
 export default function Home() {
   return (
     <div className="bg-[#f6f6f6]">
@@ -29,7 +30,7 @@ export default function Home() {
           </div>
           <div className="flex justify-around items-center">
             <div className="flex items-center gap-4 hover:shadow-xl p-4 hover:border">
-              <img
+              <Image
                 src="/produce-shop-keeper-fruit-and-vegetables-retail-business-owner-working-in-his-own-store-flat-illustration-eps-10-vector-2C3WFHW.jpg"
                 alt=""
                 className="w-12 h-12 rounded-lg"
@@ -40,7 +41,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex items-center gap-4 hover:shadow-xl p-4 hover:border">
-              <img
+              <Image
                 src="/warehouse-worker111.jpg"
                 alt=""
                 className="w-12 h-12 rounded-lg"
@@ -51,7 +52,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex items-center gap-4 hover:shadow-xl p-4 hover:border">
-              <img
+              <Image
                 src="/Computer-Operator-Jobs.jpg"
                 alt=""
                 className="w-12 h-12 rounded-lg"
@@ -62,7 +63,11 @@ export default function Home() {
               </div>
             </div>
             <div className="flex items-center gap-4 hover:shadow-xl p-4 hover:border">
-              <img src="/images.jpeg" alt="" className="w-12 h-12 rounded-lg" />
+              <Image
+                src="/images.jpeg"
+                alt=""
+                className="w-12 h-12 rounded-lg"
+              />
               <div>
                 <h1 className="text-lg font-medium">Shef</h1>
                 <p className="text-sm">357 Open position</p>
@@ -71,7 +76,7 @@ export default function Home() {
           </div>
           <div className="flex justify-around items-center">
             <div className="flex items-center gap-4 hover:shadow-xl p-4 hover:border">
-              <img
+              <Image
                 src="/security-guard-1.jpg"
                 alt=""
                 className="w-12 h-12 rounded-lg"
@@ -82,7 +87,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex items-center gap-4 hover:shadow-xl p-4 hover:border">
-              <img
+              <Image
                 src="/2-min-scaled.jpg"
                 alt=""
                 className="w-12 h-12 rounded-lg"
@@ -93,7 +98,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex items-center gap-4 hover:shadow-xl p-4 hover:border">
-              <img
+              <Image
                 src="/trusted_local_gardeners_gardening_service.jpg.600x370_q85_crop-smart_upscale.jpg"
                 alt=""
                 className="w-12 h-12 rounded-lg"
@@ -104,7 +109,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex items-center gap-4 hover:shadow-xl p-4 hover:border">
-              <img
+              <Image
                 src="/male-tailer-with-measuring-tape-vector-18009563.jpg"
                 alt=""
                 className="w-12 h-12 rounded-lg"
@@ -134,7 +139,7 @@ export default function Home() {
                 Maecenas ac placerat metus, in faucibus est.”
               </p>
               <div className="flex items-center gap-3">
-                <img
+                <Image
                   src="/Default_pfp.jpg"
                   alt=""
                   className="w-12 h-12 rounded-full"
@@ -161,7 +166,7 @@ export default function Home() {
                 ornare. Morbi vitae tristique ante”
               </p>
               <div className="flex items-center gap-3">
-                <img
+                <Image
                   src="/Default_pfp.jpg"
                   alt=""
                   className="w-12 h-12 rounded-full"
@@ -189,7 +194,7 @@ export default function Home() {
                 dapibus.”
               </p>
               <div className="flex items-center gap-3">
-                <img
+                <Image
                   src="/Default_pfp.jpg"
                   alt=""
                   className="w-12 h-12 rounded-full"

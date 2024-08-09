@@ -13,6 +13,7 @@ import Pagination from "@mui/material/Pagination";
 import { MdOutlineVerified } from "react-icons/md";
 import { MdVerified } from "react-icons/md";
 import { FaRegBookmark } from "react-icons/fa";
+import Image from "next/image";
 
 const Profiles = () => {
   const [value, setValue] = useState<number | undefined>(undefined);
@@ -110,7 +111,7 @@ const Profiles = () => {
           <div className="w-full flex flex-col gap-6">
             <div className="border shadow hover:shadow-lg hover:bg-white p-8 h-fit grid gap-2">
               <div className="flex items-center gap-4">
-                <img
+                <Image
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGhWJtaM-Wd4n1pEorbqbvvldzG6m0W0KBsw&s"
                   alt=""
                   className="w-16 h-16 rounded-full border"
@@ -138,7 +139,7 @@ const Profiles = () => {
             </div>
             <div className="border shadow hover:shadow-lg hover:bg-white p-8 h-fit grid gap-2">
               <div className="flex items-center gap-4">
-                <img
+                <Image
                   src="https://cdn.shopify.com/s/files/1/0579/9945/8475/files/Japan_electronics_gulnoor_market_murree_road.jpg?v=1665212766"
                   alt=""
                   className="w-16 h-16 rounded-full border"
@@ -166,7 +167,7 @@ const Profiles = () => {
             </div>
             <div className="border shadow hover:shadow-lg hover:bg-white p-8 h-fit grid gap-2">
               <div className="flex items-center gap-4">
-                <img
+                <Image
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvLDl-14QkMRLK2OTkL_RLBXKPBzBg8eom9A&s"
                   alt=""
                   className="w-16 h-16 rounded-full border"
@@ -194,7 +195,7 @@ const Profiles = () => {
             </div>
             <div className="border shadow hover:shadow-lg hover:bg-white p-8 h-fit grid gap-2">
               <div className="flex items-center gap-4">
-                <img
+                <Image
                   src="https://lh3.googleusercontent.com/p/AF1QipOq6rQK80nP7fKzips42NProa857bA0ChelPaYx=s1600-w228"
                   alt=""
                   className="w-16 h-16 rounded-full border"

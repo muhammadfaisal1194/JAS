@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
 
@@ -14,7 +15,7 @@ const Popularservice = () => {
         </div>
         <div className="flex justify-between">
           <div className="p-4 text-center hover:bg-white shadow-sm border hover:shadow-lg w-fit">
-            <img
+            <Image
               src="/pngtree-electric-service-cartoon-vector-equipment-and-electrician-engineer-tools-picture-image_7941933.png"
               alt=""
               className="w-40 h-40 hover:w-44 hover:h-44"
@@ -22,7 +23,7 @@ const Popularservice = () => {
             <p className="text-[#000000ba] font-medium">Electrician</p>
           </div>
           <div className="p-4 hover:bg-white shadow-sm border text-center hover:shadow-lg w-fit">
-            <img
+            <Image
               src="/cropped-MrPlumber-Logo-removebg-preview.png"
               alt=""
               className="w-40 h-40 hover:w-44 hover:h-44"
@@ -30,7 +31,7 @@ const Popularservice = () => {
             <p className="text-[#000000ba] font-medium">Plumber</p>
           </div>
           <div className="p-4 hover:bg-white shadow-sm border text-center hover:shadow-lg w-fit">
-            <img
+            <Image
               src="/olgas_01-removebg-preview.png"
               alt=""
               className="w-40 h-40 hover:w-44 hover:h-44"
@@ -38,7 +39,7 @@ const Popularservice = () => {
             <p className="text-[#000000ba] font-medium">Home Clean</p>
           </div>
           <div className="p-4 hover:bg-white shadow-sm border text-center hover:shadow-lg w-fit">
-            <img
+            <Image
               src="/18532409-carpentry-construction-collage-tools-underneath-wooden-planks-removebg-preview.png"
               alt=""
               className="w-40 h-40 hover:w-44 hover:h-44"
@@ -46,7 +47,7 @@ const Popularservice = () => {
             <p className="text-[#000000ba] font-medium">Carpenters</p>
           </div>
           <div className="p-4 hover:bg-white shadow-sm border text-center hover:shadow-lg w-fit">
-            <img
+            <Image
               src="/Appliances-Repair-Service_2_11zon-removebg-preview.png"
               alt=""
               className="w-40 h-40 hover:w-44 hover:h-44"
@@ -78,7 +79,7 @@ const Popularservice = () => {
               </p>
             </div>
             <div className="flex items-center gap-4">
-              <img
+              <Image
                 src="/download-removebg-preview.png"
                 alt=""
                 className="w-14 h-14 rounded-full border"
@@ -104,7 +105,7 @@ const Popularservice = () => {
               </p>
             </div>
             <div className="flex items-center gap-4">
-              <img
+              <Image
                 src="/download-removebg-preview.png"
                 alt=""
                 className="w-14 h-14 rounded-full border"
@@ -130,7 +131,7 @@ const Popularservice = () => {
               </p>
             </div>
             <div className="flex items-center gap-4">
-              <img
+              <Image
                 src="/download-removebg-preview.png"
                 alt=""
                 className="w-14 h-14 rounded-full border"
@@ -158,7 +159,7 @@ const Popularservice = () => {
               </p>
             </div>
             <div className="flex items-center gap-4">
-              <img
+              <Image
                 src="/download-removebg-preview.png"
                 alt=""
                 className="w-14 h-14 rounded-full border"
@@ -184,7 +185,7 @@ const Popularservice = () => {
               </p>
             </div>
             <div className="flex items-center gap-4">
-              <img
+              <Image
                 src="/download-removebg-preview.png"
                 alt=""
                 className="w-14 h-14 rounded-full border"
@@ -210,7 +211,7 @@ const Popularservice = () => {
               </p>
             </div>
             <div className="flex items-center gap-4">
-              <img
+              <Image
                 src="/download-removebg-preview.png"
                 alt=""
                 className="w-14 h-14 rounded-full border"

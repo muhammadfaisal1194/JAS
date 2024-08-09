@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
 
@@ -15,7 +16,7 @@ const Cards = () => {
             Register now <FaArrowRight className="text-[#0A65CC]" />
           </button>
         </div>
-        <img
+        <Image
           src="/services-removebg-preview.png"
           alt=""
           className="w-40 h-32"
@@ -32,7 +33,7 @@ const Cards = () => {
             Register now <FaArrowRight className="text-[#0A65CC]" />
           </button>
         </div>
-        <img
+        <Image
           src="/pointofsale_jobs-removebg-preview.png"
           alt=""
           className="w-40 h-36"

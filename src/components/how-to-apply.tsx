@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Howtoapply = () => {
@@ -6,7 +7,7 @@ const Howtoapply = () => {
       <h1 className="text-4xl text-[#18191C] font-medium">How JAS work</h1>
       <div className="relative flex justify-between items-center gap-4">
         <div className="grid w-fit py-6 gap-4 justify-items-center text-center">
-          <img src="/Icon.svg" alt="" />
+          <Image src="/Icon.svg" alt="" />
           <div className="grid gap-2">
             <h1 className="text-lg font-medium">Create account</h1>
             <p className="text-sm text-[#767F8C] w-72">
@@ -14,9 +15,9 @@ const Howtoapply = () => {
             </p>
           </div>
         </div>
-        <img src="/Arrows.svg" alt="" className="absolute top-0 ml-[190px]" />
+        <Image src="/Arrows.svg" alt="" className="absolute top-0 ml-[190px]" />
         <div className="bg-white rounded-lg py-6 grid gap-4 w-fit justify-items-center text-center">
-          <img src="/Icon1.svg" alt="" />
+          <Image src="/Icon1.svg" alt="" />
           <div className="grid gap-2">
             <h1 className="text-lg font-medium">Upload CV/Resume</h1>
             <p className="text-sm text-[#767F8C] w-72">
@@ -24,13 +25,13 @@ const Howtoapply = () => {
             </p>
           </div>
         </div>
-        <img
+        <Image
           src="/Arrows (1).svg"
           alt=""
           className="absolute ml-[490px] top-[60px]"
         />
         <div className="grid w-fit py-6 gap-4 justify-items-center text-center">
-          <img src="/Icon2.svg" alt="" />
+          <Image src="/Icon2.svg" alt="" />
           <div className="grid gap-2">
             <h1 className="text-lg font-medium">Find suitable job</h1>
             <p className="text-sm text-[#767F8C] w-72">
@@ -38,13 +39,13 @@ const Howtoapply = () => {
             </p>
           </div>
         </div>
-        <img
+        <Image
           src="/Arrows2.svg"
           alt=""
           className="absolute top-0 right-[180px]"
         />
         <div className="grid w-fit py-6 gap-4 justify-items-center text-center">
-          <img src="/Icon 3.svg" alt="" />
+          <Image src="/Icon 3.svg" alt="" />
           <div className="grid gap-2">
             <h1 className="text-lg font-medium">Apply job</h1>
             <p className="text-sm text-[#767F8C] w-72">
