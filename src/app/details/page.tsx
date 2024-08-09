@@ -83,7 +83,9 @@ const Page = () => {
                 <ul className="relative p-4 w-full">
                   <div className="mt-14">
                     {cities.map((city) => (
-                      <li className="p-2 hover:bg-gray-100">{city.name}</li>
+                      <li className="p-2 hover:bg-gray-100" key={city.name}>
+                        {city.name}
+                      </li>
                     ))}
                   </div>
                 </ul>
