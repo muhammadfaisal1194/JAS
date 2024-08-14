@@ -8,6 +8,7 @@ import Pagination from "@mui/material/Pagination";
 import Footer from "@/components/footer";
 import { MdGpsFixed } from "react-icons/md";
 import Image from "next/image";
+import Link from "next/link";
 
 const Service = () => {
   return (
@@ -59,7 +60,7 @@ const Service = () => {
               <GiSettingsKnobs className="font-semibold" />
               Filters
             </button>
-            <button className="bg-blue-600 hover:bg-blue-700 w-32 p-2 px-4 rounded-md text-white font-semibold">
+            <button className="bg-blue-600 hover:bg-blue-700 w-36 p-2 px-4 rounded-md text-white font-semibold">
               Find Service
             </button>
           </div>
@@ -74,92 +75,136 @@ const Service = () => {
               </button>
             </div>
             <div className="flex justify-between">
-              <div className="p-4 text-center hover:bg-white shadow-sm border hover:shadow-lg w-fit">
-                <Image
-                  src="/pngtree-electric-service-cartoon-vector-equipment-and-electrician-engineer-tools-picture-image_7941933.png"
-                  alt=""
-                  className="w-40 h-40 hover:w-44 hover:h-44"
-                />
-                <p className="text-[#000000ba] font-medium">Electrician</p>
-              </div>
-              <div className="p-4 hover:bg-white shadow-sm border text-center hover:shadow-lg w-fit">
-                <Image
-                  src="/cropped-MrPlumber-Logo-removebg-preview.png"
-                  alt=""
-                  className="w-40 h-40 hover:w-44 hover:h-44"
-                />
-                <p className="text-[#000000ba] font-medium">Plumber</p>
-              </div>
-              <div className="p-4 hover:bg-white shadow-sm border text-center hover:shadow-lg w-fit">
-                <Image
-                  src="/olgas_01-removebg-preview.png"
-                  alt=""
-                  className="w-40 h-40 hover:w-44 hover:h-44"
-                />
-                <p className="text-[#000000ba] font-medium">Home Clean</p>
-              </div>
-              <div className="p-4 hover:bg-white shadow-sm border text-center hover:shadow-lg w-fit">
-                <Image
-                  src="/18532409-carpentry-construction-collage-tools-underneath-wooden-planks-removebg-preview.png"
-                  alt=""
-                  className="w-40 h-40 hover:w-44 hover:h-44"
-                />
-                <p className="text-[#000000ba] font-medium">Carpenters</p>
-              </div>
-              <div className="p-4 hover:bg-white shadow-sm border text-center hover:shadow-lg w-fit">
-                <Image
-                  src="/Appliances-Repair-Service_2_11zon-removebg-preview.png"
-                  alt=""
-                  className="w-40 h-40 hover:w-44 hover:h-44"
-                />
-                <p className="text-[#000000ba] font-medium">Home appliances</p>
-              </div>
+              <Link href="/profiles">
+                <div className="p-4 text-center hover:bg-white shadow-sm border hover:shadow-lg w-fit">
+                  <Image
+                    src="/pngtree-electric-service-cartoon-vector-equipment-and-electrician-engineer-tools-picture-image_7941933.png"
+                    alt=""
+                    width={160}
+                    height={160}
+                    className="w-40 h-40 hover:w-44 hover:h-44"
+                  />
+                  <p className="text-[#000000ba] font-medium">Electrician</p>
+                </div>
+              </Link>
+              <Link href="/profiles">
+                <div className="p-4 hover:bg-white shadow-sm border text-center hover:shadow-lg w-fit">
+                  <Image
+                    src="/cropped-MrPlumber-Logo-removebg-preview.png"
+                    alt=""
+                    width={160}
+                    height={160}
+                    className="w-40 h-40 hover:w-44 hover:h-44"
+                  />
+                  <p className="text-[#000000ba] font-medium">Plumber</p>
+                </div>
+              </Link>
+              <Link href="/profiles">
+                <div className="p-4 hover:bg-white shadow-sm border text-center hover:shadow-lg w-fit">
+                  <Image
+                    src="/olgas_01-removebg-preview.png"
+                    alt=""
+                    width={160}
+                    height={160}
+                    className="w-40 h-40 hover:w-44 hover:h-44"
+                  />
+                  <p className="text-[#000000ba] font-medium">Home Clean</p>
+                </div>
+              </Link>
+              <Link href="/profiles">
+                <div className="p-4 hover:bg-white shadow-sm border text-center hover:shadow-lg w-fit">
+                  <Image
+                    src="/18532409-carpentry-construction-collage-tools-underneath-wooden-planks-removebg-preview.png"
+                    alt=""
+                    width={160}
+                    height={160}
+                    className="w-40 h-40 hover:w-44 hover:h-44"
+                  />
+                  <p className="text-[#000000ba] font-medium">Carpenters</p>
+                </div>
+              </Link>
+              <Link href="/profiles">
+                <div className="p-4 hover:bg-white shadow-sm border text-center hover:shadow-lg w-fit">
+                  <Image
+                    src="/Appliances-Repair-Service_2_11zon-removebg-preview.png"
+                    alt=""
+                    width={160}
+                    height={160}
+                    className="w-40 h-40 hover:w-44 hover:h-44"
+                  />
+                  <p className="text-[#000000ba] font-medium">
+                    Home appliances
+                  </p>
+                </div>
+              </Link>
             </div>
           </div>
           <div className="flex flex-col gap-8">
             <div className="flex justify-between">
-              <div className="p-4 text-center hover:bg-white shadow-sm border hover:shadow-lg ">
-                <Image
-                  src="https://assignmentpoint.com/wp-content/uploads/2013/09/Internet-Service.jpg"
-                  alt=""
-                  className="w-40 h-40 hover:w-44 hover:h-44"
-                />
-                <p className="text-[#000000ba] font-medium">
-                  Internet Providers
-                </p>
-              </div>
-              <div className="p-4 hover:bg-white shadow-sm border text-center hover:shadow-lg w-fit">
-                <Image
-                  src="/auto-service-logo-car-repair-icon-vector-22266860-removebg-preview.png"
-                  alt=""
-                  className="w-40 h-40 hover:w-44 hover:h-44"
-                />
-                <p className="text-[#000000ba] font-medium">Car Service</p>
-              </div>
-              <div className="p-4 hover:bg-white shadow-sm border text-center hover:shadow-lg w-fit">
-                <Image
-                  src="/360_F_279426500_flTlayq22Q0SRgUqfLRV1DJRiFvGanq5.jpg"
-                  alt=""
-                  className="w-40 h-40 hover:w-44 hover:h-44"
-                />
-                <p className="text-[#000000ba] font-medium">Computer Repair</p>
-              </div>
-              <div className="p-4 hover:bg-white shadow-sm border text-center hover:shadow-lg w-fit">
-                <Image
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRgPFaYwH2TW_bzLx3Ya85hv36b2tgCGc4BhakpRO-6ZryFk64DyzyoVuTkDpYiX_rsJY&usqp=CAU"
-                  alt=""
-                  className="w-40 h-40 hover:w-44 hover:h-44"
-                />
-                <p className="text-[#000000ba] font-medium">Home Painter</p>
-              </div>
-              <div className="p-4 hover:bg-white shadow-sm border text-center hover:shadow-lg w-fit">
-                <Image
-                  src="https://www.kmr-gc.com/wp-content/uploads/2020/03/remodeling-contractor-kmr.jpg"
-                  alt=""
-                  className="w-40 h-40 hover:w-44 hover:h-44"
-                />
-                <p className="text-[#000000ba] font-medium">Home Builder</p>
-              </div>
+              <Link href="/profiles">
+                <div className="p-4 text-center hover:bg-white shadow-sm border hover:shadow-lg ">
+                  <Image
+                    src="https://assignmentpoint.com/wp-content/uploads/2013/09/Internet-Service.jpg"
+                    alt=""
+                    width={160}
+                    height={160}
+                    className="w-40 h-40 hover:w-44 hover:h-44"
+                  />
+                  <p className="text-[#000000ba] font-medium">
+                    Internet Providers
+                  </p>
+                </div>
+              </Link>
+              <Link href="/profiles">
+                <div className="p-4 hover:bg-white shadow-sm border text-center hover:shadow-lg w-fit">
+                  <Image
+                    src="/auto-service-logo-car-repair-icon-vector-22266860-removebg-preview.png"
+                    alt=""
+                    width={160}
+                    height={160}
+                    className="w-40 h-40 hover:w-44 hover:h-44"
+                  />
+                  <p className="text-[#000000ba] font-medium">Car Service</p>
+                </div>
+              </Link>
+              <Link href="/profiles">
+                <div className="p-4 hover:bg-white shadow-sm border text-center hover:shadow-lg w-fit">
+                  <Image
+                    src="/360_F_279426500_flTlayq22Q0SRgUqfLRV1DJRiFvGanq5.jpg"
+                    alt=""
+                    width={160}
+                    height={160}
+                    className="w-40 h-40 hover:w-44 hover:h-44"
+                  />
+                  <p className="text-[#000000ba] font-medium">
+                    Computer Repair
+                  </p>
+                </div>
+              </Link>
+              <Link href="/profiles">
+                <div className="p-4 hover:bg-white shadow-sm border text-center hover:shadow-lg w-fit">
+                  <Image
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRgPFaYwH2TW_bzLx3Ya85hv36b2tgCGc4BhakpRO-6ZryFk64DyzyoVuTkDpYiX_rsJY&usqp=CAU"
+                    alt=""
+                    width={160}
+                    height={160}
+                    className="w-40 h-40 hover:w-44 hover:h-44"
+                  />
+                  <p className="text-[#000000ba] font-medium">Home Painter</p>
+                </div>
+              </Link>
+              <Link href="/profiles">
+                <div className="p-4 hover:bg-white shadow-sm border text-center hover:shadow-lg w-fit">
+                  <Image
+                    src="https://www.kmr-gc.com/wp-content/uploads/2020/03/remodeling-contractor-kmr.jpg"
+                    alt=""
+                    width={160}
+                    height={160}
+                    className="w-40 h-40 hover:w-44 hover:h-44"
+                  />
+                  <p className="text-[#000000ba] font-medium">Home Builder</p>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

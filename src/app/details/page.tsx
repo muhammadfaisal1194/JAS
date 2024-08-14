@@ -8,6 +8,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import Pagination from "@mui/material/Pagination";
 import Footer from "@/components/footer";
 import Image from "next/image";
+import Link from "next/link";
 
 const Page = () => {
   const catMenu = useRef<HTMLDivElement | null>(null);
@@ -105,164 +106,200 @@ const Page = () => {
         </div>
         <div className="flex flex-col gap-8">
           <div className="flex justify-between">
-            <div className="border shadow-sm p-8 h-fit grid gap-2">
-              <h1 className="text-2xl font-medium text-[#18191C]">
-                Techical Support Specialist
-              </h1>
-              <div className="flex items-center gap-6">
-                <span className="text-sm text-[#0BA02C] bg-[#E7F6EA] p-1">
-                  Part-time
-                </span>
-                <p className="text-sm text-[#767F8C]">
-                  Salary: $20,000 - $25,000
-                </p>
-              </div>
-              <div className="flex items-center gap-4">
-                <Image
-                  src="/download-removebg-preview.png"
-                  alt=""
-                  className="w-14 h-14 rounded-full border"
-                />
-                <div>
-                  <h1 className="text-xl font-medium text-[#18191C]">JAS</h1>
-                  <span>
-                    <p className="text-sm text-[#767F8C]">Dhaka, Bangladesh</p>
+            <Link href="/jobdetails">
+              <div className="border shadow-sm p-8 h-fit grid gap-2">
+                <h1 className="text-2xl font-medium text-[#18191C]">
+                  Techical Support Specialist
+                </h1>
+                <div className="flex items-center gap-6">
+                  <span className="text-sm text-[#0BA02C] bg-[#E7F6EA] p-1">
+                    Part-time
                   </span>
+                  <p className="text-sm text-[#767F8C]">
+                    Salary: $20,000 - $25,000
+                  </p>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Image
+                    src="/download-removebg-preview.png"
+                    alt=""
+                    width={56}
+                    height={56}
+                    className="w-14 h-14 rounded-full border"
+                  />
+                  <div>
+                    <h1 className="text-xl font-medium text-[#18191C]">JAS</h1>
+                    <span>
+                      <p className="text-sm text-[#767F8C]">
+                        Dhaka, Bangladesh
+                      </p>
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="border shadow-sm p-8 h-fit grid gap-2">
-              <h1 className="text-2xl font-medium text-[#18191C]">
-                Techical Support Specialist
-              </h1>
-              <div className="flex items-center gap-6">
-                <span className="text-sm text-[#0BA02C] bg-[#E7F6EA] p-1">
-                  Part-time
-                </span>
-                <p className="text-sm text-[#767F8C]">
-                  Salary: $20,000 - $25,000
-                </p>
-              </div>
-              <div className="flex items-center gap-4">
-                <Image
-                  src="/download-removebg-preview.png"
-                  alt=""
-                  className="w-14 h-14 rounded-full border"
-                />
-                <div>
-                  <h1 className="text-xl font-medium text-[#18191C]">JAS</h1>
-                  <span>
-                    <p className="text-sm text-[#767F8C]">Dhaka, Bangladesh</p>
+            </Link>
+            <Link href="/jobdetails">
+              <div className="border shadow-sm p-8 h-fit grid gap-2">
+                <h1 className="text-2xl font-medium text-[#18191C]">
+                  Techical Support Specialist
+                </h1>
+                <div className="flex items-center gap-6">
+                  <span className="text-sm text-[#0BA02C] bg-[#E7F6EA] p-1">
+                    Part-time
                   </span>
+                  <p className="text-sm text-[#767F8C]">
+                    Salary: $20,000 - $25,000
+                  </p>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Image
+                    src="/download-removebg-preview.png"
+                    width={56}
+                    height={56}
+                    alt=""
+                    className="w-14 h-14 rounded-full border"
+                  />
+                  <div>
+                    <h1 className="text-xl font-medium text-[#18191C]">JAS</h1>
+                    <span>
+                      <p className="text-sm text-[#767F8C]">
+                        Dhaka, Bangladesh
+                      </p>
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="border shadow-sm p-8 h-fit grid gap-2">
-              <h1 className="text-2xl font-medium text-[#18191C]">
-                Techical Support Specialist
-              </h1>
-              <div className="flex items-center gap-6">
-                <span className="text-sm text-[#0BA02C] bg-[#E7F6EA] p-1">
-                  Part-time
-                </span>
-                <p className="text-sm text-[#767F8C]">
-                  Salary: $20,000 - $25,000
-                </p>
-              </div>
-              <div className="flex items-center gap-4">
-                <Image
-                  src="/download-removebg-preview.png"
-                  alt=""
-                  className="w-14 h-14 rounded-full border"
-                />
-                <div>
-                  <h1 className="text-xl font-medium text-[#18191C]">JAS</h1>
-                  <span>
-                    <p className="text-sm text-[#767F8C]">Dhaka, Bangladesh</p>
+            </Link>
+            <Link href="/jobdetails">
+              <div className="border shadow-sm p-8 h-fit grid gap-2">
+                <h1 className="text-2xl font-medium text-[#18191C]">
+                  Techical Support Specialist
+                </h1>
+                <div className="flex items-center gap-6">
+                  <span className="text-sm text-[#0BA02C] bg-[#E7F6EA] p-1">
+                    Part-time
                   </span>
+                  <p className="text-sm text-[#767F8C]">
+                    Salary: $20,000 - $25,000
+                  </p>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Image
+                    src="/download-removebg-preview.png"
+                    width={56}
+                    height={56}
+                    alt=""
+                    className="w-14 h-14 rounded-full border"
+                  />
+                  <div>
+                    <h1 className="text-xl font-medium text-[#18191C]">JAS</h1>
+                    <span>
+                      <p className="text-sm text-[#767F8C]">
+                        Dhaka, Bangladesh
+                      </p>
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
           <div className="flex justify-between">
-            <div className="border shadow-sm p-8 h-fit grid gap-2">
-              <h1 className="text-2xl font-medium text-[#18191C]">
-                Techical Support Specialist
-              </h1>
-              <div className="flex items-center gap-6">
-                <span className="text-sm text-[#0BA02C] bg-[#E7F6EA] p-1">
-                  Part-time
-                </span>
-                <p className="text-sm text-[#767F8C]">
-                  Salary: $20,000 - $25,000
-                </p>
-              </div>
-              <div className="flex items-center gap-4">
-                <Image
-                  src="/download-removebg-preview.png"
-                  alt=""
-                  className="w-14 h-14 rounded-full border"
-                />
-                <div>
-                  <h1 className="text-xl font-medium text-[#18191C]">JAS</h1>
-                  <span>
-                    <p className="text-sm text-[#767F8C]">Dhaka, Bangladesh</p>
+            <Link href="/jobdetails">
+              <div className="border shadow-sm p-8 h-fit grid gap-2">
+                <h1 className="text-2xl font-medium text-[#18191C]">
+                  Techical Support Specialist
+                </h1>
+                <div className="flex items-center gap-6">
+                  <span className="text-sm text-[#0BA02C] bg-[#E7F6EA] p-1">
+                    Part-time
                   </span>
+                  <p className="text-sm text-[#767F8C]">
+                    Salary: $20,000 - $25,000
+                  </p>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Image
+                    src="/download-removebg-preview.png"
+                    width={56}
+                    height={56}
+                    alt=""
+                    className="w-14 h-14 rounded-full border"
+                  />
+                  <div>
+                    <h1 className="text-xl font-medium text-[#18191C]">JAS</h1>
+                    <span>
+                      <p className="text-sm text-[#767F8C]">
+                        Dhaka, Bangladesh
+                      </p>
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="border shadow-sm p-8 h-fit grid gap-2">
-              <h1 className="text-2xl font-medium text-[#18191C]">
-                Techical Support Specialist
-              </h1>
-              <div className="flex items-center gap-6">
-                <span className="text-sm text-[#0BA02C] bg-[#E7F6EA] p-1">
-                  Part-time
-                </span>
-                <p className="text-sm text-[#767F8C]">
-                  Salary: $20,000 - $25,000
-                </p>
-              </div>
-              <div className="flex items-center gap-4">
-                <Image
-                  src="/download-removebg-preview.png"
-                  alt=""
-                  className="w-14 h-14 rounded-full border"
-                />
-                <div>
-                  <h1 className="text-xl font-medium text-[#18191C]">JAS</h1>
-                  <span>
-                    <p className="text-sm text-[#767F8C]">Dhaka, Bangladesh</p>
+            </Link>
+            <Link href="/jobdetails">
+              <div className="border shadow-sm p-8 h-fit grid gap-2">
+                <h1 className="text-2xl font-medium text-[#18191C]">
+                  Techical Support Specialist
+                </h1>
+                <div className="flex items-center gap-6">
+                  <span className="text-sm text-[#0BA02C] bg-[#E7F6EA] p-1">
+                    Part-time
                   </span>
+                  <p className="text-sm text-[#767F8C]">
+                    Salary: $20,000 - $25,000
+                  </p>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Image
+                    src="/download-removebg-preview.png"
+                    width={56}
+                    height={56}
+                    alt=""
+                    className="w-14 h-14 rounded-full border"
+                  />
+                  <div>
+                    <h1 className="text-xl font-medium text-[#18191C]">JAS</h1>
+                    <span>
+                      <p className="text-sm text-[#767F8C]">
+                        Dhaka, Bangladesh
+                      </p>
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="border shadow-sm p-8 h-fit grid gap-2">
-              <h1 className="text-2xl font-medium text-[#18191C]">
-                Techical Support Specialist
-              </h1>
-              <div className="flex items-center gap-6">
-                <span className="text-sm text-[#0BA02C] bg-[#E7F6EA] p-1">
-                  Part-time
-                </span>
-                <p className="text-sm text-[#767F8C]">
-                  Salary: $20,000 - $25,000
-                </p>
-              </div>
-              <div className="flex items-center gap-4">
-                <Image
-                  src="/download-removebg-preview.png"
-                  alt=""
-                  className="w-14 h-14 rounded-full border"
-                />
-                <div>
-                  <h1 className="text-xl font-medium text-[#18191C]">JAS</h1>
-                  <span>
-                    <p className="text-sm text-[#767F8C]">Dhaka, Bangladesh</p>
+            </Link>
+            <Link href="/jobdetails">
+              <div className="border shadow-sm p-8 h-fit grid gap-2">
+                <h1 className="text-2xl font-medium text-[#18191C]">
+                  Techical Support Specialist
+                </h1>
+                <div className="flex items-center gap-6">
+                  <span className="text-sm text-[#0BA02C] bg-[#E7F6EA] p-1">
+                    Part-time
                   </span>
+                  <p className="text-sm text-[#767F8C]">
+                    Salary: $20,000 - $25,000
+                  </p>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Image
+                    src="/download-removebg-preview.png"
+                    width={56}
+                    height={56}
+                    alt=""
+                    className="w-14 h-14 rounded-full border"
+                  />
+                  <div>
+                    <h1 className="text-xl font-medium text-[#18191C]">JAS</h1>
+                    <span>
+                      <p className="text-sm text-[#767F8C]">
+                        Dhaka, Bangladesh
+                      </p>
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
         <div className="flex justify-center pb-6">

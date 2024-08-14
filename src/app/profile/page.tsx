@@ -45,6 +45,8 @@ const Profile = () => {
             <Image
               src="https://cdn.shopify.com/s/files/1/0579/9945/8475/files/Japan_Electronics_PWD.jpg?v=1664967213"
               alt=""
+              width={1000}
+              height={440}
               className="w-full"
             />
           </div>
@@ -52,6 +54,8 @@ const Profile = () => {
             <Image
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvLDl-14QkMRLK2OTkL_RLBXKPBzBg8eom9A&s"
               alt=""
+              width={64}
+              height={64}
               className="w-16 h-16 rounded-xl border"
             />
             <div className="flex items-center justify-between w-full">
@@ -103,6 +107,8 @@ const Profile = () => {
                       <Image
                         src="https://img.freepik.com/premium-photo/male-electrician-works-electrical-network-repair-ai-generated_406939-9533.jpg"
                         alt=""
+                        width={96}
+                        height={96}
                         className="w-24 h-24 rounded-md"
                       />
                       <div className="grid gap-2">
@@ -126,6 +132,8 @@ const Profile = () => {
                       <Image
                         src="https://img.freepik.com/premium-photo/male-electrician-works-electrical-network-repair-ai-generated_406939-9533.jpg"
                         alt=""
+                        width={96}
+                        height={96}
                         className="w-24 h-24 rounded-md"
                       />
                       <div className="grid gap-2">
@@ -149,6 +157,8 @@ const Profile = () => {
                       <Image
                         src="https://img.freepik.com/premium-photo/male-electrician-works-electrical-network-repair-ai-generated_406939-9533.jpg"
                         alt=""
+                        width={96}
+                        height={96}
                         className="w-24 h-24 rounded-md"
                       />
                       <div className="grid gap-2">
@@ -249,6 +259,8 @@ const Profile = () => {
                   <Image
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGhWJtaM-Wd4n1pEorbqbvvldzG6m0W0KBsw&s"
                     alt=""
+                    width={64}
+                    height={64}
                     className="w-16 h-16 rounded-full border"
                   />
                   <div className="flex flex-col gap-1 w-full">
@@ -277,6 +289,8 @@ const Profile = () => {
                   <Image
                     src="https://cdn.shopify.com/s/files/1/0579/9945/8475/files/Japan_electronics_gulnoor_market_murree_road.jpg?v=1665212766"
                     alt=""
+                    width={64}
+                    height={64}
                     className="w-16 h-16 rounded-full border"
                   />
                   <div className="flex flex-col gap-1 w-full">
@@ -307,6 +321,8 @@ const Profile = () => {
                   <Image
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvLDl-14QkMRLK2OTkL_RLBXKPBzBg8eom9A&s"
                     alt=""
+                    width={64}
+                    height={64}
                     className="w-16 h-16 rounded-full border"
                   />
                   <div className="flex flex-col gap-1 w-full">
@@ -335,6 +351,8 @@ const Profile = () => {
                   <Image
                     src="https://lh3.googleusercontent.com/p/AF1QipOq6rQK80nP7fKzips42NProa857bA0ChelPaYx=s1600-w228"
                     alt=""
+                    width={64}
+                    height={64}
                     className="w-16 h-16 rounded-full border"
                   />
                   <div className="flex flex-col gap-1 w-full">

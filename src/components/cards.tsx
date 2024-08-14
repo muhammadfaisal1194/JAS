@@ -18,6 +18,8 @@ const Cards = () => {
         </div>
         <Image
           src="/services-removebg-preview.png"
+          width={160}
+          height={128}
           alt=""
           className="w-40 h-32"
         />
@@ -35,6 +37,8 @@ const Cards = () => {
         </div>
         <Image
           src="/pointofsale_jobs-removebg-preview.png"
+          width={160}
+          height={144}
           alt=""
           className="w-40 h-36"
         />

@@ -32,6 +32,8 @@ export default function Home() {
             <div className="flex items-center gap-4 hover:shadow-xl p-4 hover:border">
               <Image
                 src="/produce-shop-keeper-fruit-and-vegetables-retail-business-owner-working-in-his-own-store-flat-illustration-eps-10-vector-2C3WFHW.jpg"
+                width={48}
+                height={48}
                 alt=""
                 className="w-12 h-12 rounded-lg"
               />
@@ -43,6 +45,8 @@ export default function Home() {
             <div className="flex items-center gap-4 hover:shadow-xl p-4 hover:border">
               <Image
                 src="/warehouse-worker111.jpg"
+                width={48}
+                height={48}
                 alt=""
                 className="w-12 h-12 rounded-lg"
               />
@@ -55,6 +59,8 @@ export default function Home() {
               <Image
                 src="/Computer-Operator-Jobs.jpg"
                 alt=""
+                width={48}
+                height={48}
                 className="w-12 h-12 rounded-lg"
               />
               <div>
@@ -66,6 +72,8 @@ export default function Home() {
               <Image
                 src="/images.jpeg"
                 alt=""
+                width={48}
+                height={48}
                 className="w-12 h-12 rounded-lg"
               />
               <div>
@@ -79,6 +87,8 @@ export default function Home() {
               <Image
                 src="/security-guard-1.jpg"
                 alt=""
+                width={48}
+                height={48}
                 className="w-12 h-12 rounded-lg"
               />
               <div>
@@ -90,6 +100,8 @@ export default function Home() {
               <Image
                 src="/2-min-scaled.jpg"
                 alt=""
+                width={48}
+                height={48}
                 className="w-12 h-12 rounded-lg"
               />
               <div>
@@ -101,6 +113,8 @@ export default function Home() {
               <Image
                 src="/trusted_local_gardeners_gardening_service.jpg.600x370_q85_crop-smart_upscale.jpg"
                 alt=""
+                width={48}
+                height={48}
                 className="w-12 h-12 rounded-lg"
               />
               <div>
@@ -112,6 +126,8 @@ export default function Home() {
               <Image
                 src="/male-tailer-with-measuring-tape-vector-18009563.jpg"
                 alt=""
+                width={48}
+                height={48}
                 className="w-12 h-12 rounded-lg"
               />
               <div>
@@ -142,6 +158,8 @@ export default function Home() {
                 <Image
                   src="/Default_pfp.jpg"
                   alt=""
+                  width={48}
+                  height={48}
                   className="w-12 h-12 rounded-full"
                 />
                 <div>
@@ -169,6 +187,8 @@ export default function Home() {
                 <Image
                   src="/Default_pfp.jpg"
                   alt=""
+                  width={48}
+                  height={48}
                   className="w-12 h-12 rounded-full"
                 />
                 <div>
@@ -197,6 +217,8 @@ export default function Home() {
                 <Image
                   src="/Default_pfp.jpg"
                   alt=""
+                  width={48}
+                  height={48}
                   className="w-12 h-12 rounded-full"
                 />
                 <div>

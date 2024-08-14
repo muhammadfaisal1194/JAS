@@ -22,27 +22,37 @@ export function Component() {
         <Image
           src="https://media.istockphoto.com/id/1498981757/photo/crm-mockup-or-man-in-a-telemarketing-call-center-helping-talking-or-networking-online-via.webp?b=1&s=170667a&w=0&k=20&c=JEbbDDrTLwYVdmdkO6A_h9aQN7vs_8pAWaPpTNrmuU4="
           className="w-[80rem] h-[35rem] hover:brightness-50 brightness-75"
+          width={1280}
+          height={560}
           alt="..."
         />
         <Image
           src="https://c0.wallpaperflare.com/preview/550/573/147/business-concept-consulting-illustration.jpg"
           className="w-[80rem] h-[35rem] hover:brightness-50 brightness-75"
+          width={1280}
+          height={560}
           alt="..."
         />
         <Image
           src="https://t3.ftcdn.net/jpg/08/08/57/14/360_F_808571477_hhooQEwnCNN1hvTssIgXANUyYdrJxMsE.jpg"
           alt="..."
           className="w-[80rem] h-[35rem] hover:brightness-50 brightness-75"
+          width={1280}
+          height={560}
         />
         <Image
-          src="\chart-graph-business-finance.jpg"
+          src="/chart-graph-business-finance.jpg"
           className="w-[80rem] h-[35rem] hover:brightness-50 brightness-75"
+          width={1280}
+          height={560}
           alt="..."
         />
         <Image
           src="/service.jpeg"
           alt="..."
           className="hover:brightness-50 brightness-75"
+          width={1280}
+          height={560}
         />
       </Carousel>
     </div>

@@ -14,6 +14,7 @@ import { MdOutlineVerified } from "react-icons/md";
 import { MdVerified } from "react-icons/md";
 import { FaRegBookmark } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 
 const Profiles = () => {
   const [value, setValue] = useState<number | undefined>(undefined);
@@ -110,116 +111,132 @@ const Profiles = () => {
           </div>
           <div className="w-full flex flex-col gap-6">
             <div className="border shadow hover:shadow-lg hover:bg-white p-8 h-fit grid gap-2">
-              <div className="flex items-center gap-4">
-                <Image
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGhWJtaM-Wd4n1pEorbqbvvldzG6m0W0KBsw&s"
-                  alt=""
-                  className="w-16 h-16 rounded-full border"
-                />
-                <div className="flex flex-col gap-1 w-full">
-                  <div className="flex justify-between items-center">
-                    <h1 className="flex items-center gap-2 text-xl font-medium text-[#18191C]">
-                      Maqbool electronics Bahawalpur
-                      <MdOutlineVerified />
-                    </h1>
-                    <FaRegBookmark className="text-xl" />
+              <Link href="/profile">
+                <div className="flex items-center gap-4">
+                  <Image
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGhWJtaM-Wd4n1pEorbqbvvldzG6m0W0KBsw&s"
+                    alt=""
+                    width={64}
+                    height={64}
+                    className="w-16 h-16 rounded-full border"
+                  />
+                  <div className="flex flex-col gap-1 w-full">
+                    <div className="flex justify-between items-center">
+                      <h1 className="flex items-center gap-2 text-xl font-medium text-[#18191C]">
+                        Maqbool electronics Bahawalpur
+                        <MdOutlineVerified />
+                      </h1>
+                      <FaRegBookmark className="text-xl" />
+                    </div>
+                    <p className="text-sm text-[#767F8C]">Maqbool Hassan</p>
+                    <span className="flex items-center gap-4">
+                      <p className="flex items-center gap-1 text-sm text-[#767F8C]">
+                        <FaLocationDot className="text-blue-600" />
+                        Circular Raod, Bahawalpur
+                      </p>
+                      <p className="flex items-center gap-1 text-sm text-[#767F8C]">
+                        <GrUserExpert className="text-blue-600" /> 3 year
+                      </p>
+                    </span>
                   </div>
-                  <p className="text-sm text-[#767F8C]">Maqbool Hassan</p>
-                  <span className="flex items-center gap-4">
-                    <p className="flex items-center gap-1 text-sm text-[#767F8C]">
-                      <FaLocationDot className="text-blue-600" />
-                      Circular Raod, Bahawalpur
-                    </p>
-                    <p className="flex items-center gap-1 text-sm text-[#767F8C]">
-                      <GrUserExpert className="text-blue-600" /> 3 year
-                    </p>
-                  </span>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className="border shadow hover:shadow-lg hover:bg-white p-8 h-fit grid gap-2">
-              <div className="flex items-center gap-4">
-                <Image
-                  src="https://cdn.shopify.com/s/files/1/0579/9945/8475/files/Japan_electronics_gulnoor_market_murree_road.jpg?v=1665212766"
-                  alt=""
-                  className="w-16 h-16 rounded-full border"
-                />
-                <div className="flex flex-col gap-1 w-full">
-                  <div className="flex justify-between items-center">
-                    <h1 className="flex items-center gap-2 text-xl font-medium text-[#18191C]">
-                      Japan Electronics
-                      <MdVerified />
-                    </h1>
-                    <FaRegBookmark className="text-xl" />
+              <Link href="/profile">
+                <div className="flex items-center gap-4">
+                  <Image
+                    src="https://cdn.shopify.com/s/files/1/0579/9945/8475/files/Japan_electronics_gulnoor_market_murree_road.jpg?v=1665212766"
+                    alt=""
+                    width={64}
+                    height={64}
+                    className="w-16 h-16 rounded-full border"
+                  />
+                  <div className="flex flex-col gap-1 w-full">
+                    <div className="flex justify-between items-center">
+                      <h1 className="flex items-center gap-2 text-xl font-medium text-[#18191C]">
+                        Japan Electronics
+                        <MdVerified />
+                      </h1>
+                      <FaRegBookmark className="text-xl" />
+                    </div>
+                    <p className="text-sm text-[#767F8C]">Maqbool Hassan</p>
+                    <span className="flex items-center gap-4">
+                      <p className="flex items-center gap-1 text-sm text-[#767F8C]">
+                        <FaLocationDot className="text-blue-600" />
+                        Circular Raod, Bahawalpur
+                      </p>
+                      <p className="flex items-center gap-1 text-sm text-[#767F8C]">
+                        <GrUserExpert className="text-blue-600" /> 25 year
+                      </p>
+                    </span>
                   </div>
-                  <p className="text-sm text-[#767F8C]">Maqbool Hassan</p>
-                  <span className="flex items-center gap-4">
-                    <p className="flex items-center gap-1 text-sm text-[#767F8C]">
-                      <FaLocationDot className="text-blue-600" />
-                      Circular Raod, Bahawalpur
-                    </p>
-                    <p className="flex items-center gap-1 text-sm text-[#767F8C]">
-                      <GrUserExpert className="text-blue-600" /> 25 year
-                    </p>
-                  </span>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className="border shadow hover:shadow-lg hover:bg-white p-8 h-fit grid gap-2">
-              <div className="flex items-center gap-4">
-                <Image
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvLDl-14QkMRLK2OTkL_RLBXKPBzBg8eom9A&s"
-                  alt=""
-                  className="w-16 h-16 rounded-full border"
-                />
-                <div className="flex flex-col gap-1 w-full">
-                  <div className="flex justify-between items-center">
-                    <h1 className="flex items-center gap-2 text-xl font-medium text-[#18191C]">
-                      Afzal Group Of Electronics
-                      <MdOutlineVerified />
-                    </h1>
-                    <FaRegBookmark className="text-xl" />
+              <Link href="/profile">
+                <div className="flex items-center gap-4">
+                  <Image
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvLDl-14QkMRLK2OTkL_RLBXKPBzBg8eom9A&s"
+                    alt=""
+                    width={64}
+                    height={64}
+                    className="w-16 h-16 rounded-full border"
+                  />
+                  <div className="flex flex-col gap-1 w-full">
+                    <div className="flex justify-between items-center">
+                      <h1 className="flex items-center gap-2 text-xl font-medium text-[#18191C]">
+                        Afzal Group Of Electronics
+                        <MdOutlineVerified />
+                      </h1>
+                      <FaRegBookmark className="text-xl" />
+                    </div>
+                    <p className="text-sm text-[#767F8C]">Afzal Hassan</p>
+                    <span className="flex items-center gap-4">
+                      <p className="flex items-center gap-1 text-sm text-[#767F8C]">
+                        <FaLocationDot className="text-blue-600" />
+                        Circular Raod, Bahawalpur
+                      </p>
+                      <p className="flex items-center gap-1 text-sm text-[#767F8C]">
+                        <GrUserExpert className="text-blue-600" /> 8 year
+                      </p>
+                    </span>
                   </div>
-                  <p className="text-sm text-[#767F8C]">Afzal Hassan</p>
-                  <span className="flex items-center gap-4">
-                    <p className="flex items-center gap-1 text-sm text-[#767F8C]">
-                      <FaLocationDot className="text-blue-600" />
-                      Circular Raod, Bahawalpur
-                    </p>
-                    <p className="flex items-center gap-1 text-sm text-[#767F8C]">
-                      <GrUserExpert className="text-blue-600" /> 8 year
-                    </p>
-                  </span>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className="border shadow hover:shadow-lg hover:bg-white p-8 h-fit grid gap-2">
-              <div className="flex items-center gap-4">
-                <Image
-                  src="https://lh3.googleusercontent.com/p/AF1QipOq6rQK80nP7fKzips42NProa857bA0ChelPaYx=s1600-w228"
-                  alt=""
-                  className="w-16 h-16 rounded-full border"
-                />
-                <div className="flex flex-col gap-1 w-full">
-                  <div className="flex justify-between items-center">
-                    <h1 className="flex items-center gap-2 text-xl font-medium text-[#18191C]">
-                      Tariq Electronic bahawalpur
-                      <MdVerified />
-                    </h1>
-                    <FaRegBookmark className="text-xl" />
+              <Link href="/profile">
+                <div className="flex items-center gap-4">
+                  <Image
+                    src="https://lh3.googleusercontent.com/p/AF1QipOq6rQK80nP7fKzips42NProa857bA0ChelPaYx=s1600-w228"
+                    alt=""
+                    width={64}
+                    height={64}
+                    className="w-16 h-16 rounded-full border"
+                  />
+                  <div className="flex flex-col gap-1 w-full">
+                    <div className="flex justify-between items-center">
+                      <h1 className="flex items-center gap-2 text-xl font-medium text-[#18191C]">
+                        Tariq Electronic bahawalpur
+                        <MdVerified />
+                      </h1>
+                      <FaRegBookmark className="text-xl" />
+                    </div>
+                    <p className="text-sm text-[#767F8C]">Tariq Hassan</p>
+                    <span className="flex items-center gap-4">
+                      <p className="flex items-center gap-1 text-sm text-[#767F8C]">
+                        <FaLocationDot className="text-blue-600" />
+                        Circular Raod, Bahawalpur
+                      </p>
+                      <p className="flex items-center gap-1 text-sm text-[#767F8C]">
+                        <GrUserExpert className="text-blue-600" /> 20 year
+                      </p>
+                    </span>
                   </div>
-                  <p className="text-sm text-[#767F8C]">Tariq Hassan</p>
-                  <span className="flex items-center gap-4">
-                    <p className="flex items-center gap-1 text-sm text-[#767F8C]">
-                      <FaLocationDot className="text-blue-600" />
-                      Circular Raod, Bahawalpur
-                    </p>
-                    <p className="flex items-center gap-1 text-sm text-[#767F8C]">
-                      <GrUserExpert className="text-blue-600" /> 20 year
-                    </p>
-                  </span>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
         </div>

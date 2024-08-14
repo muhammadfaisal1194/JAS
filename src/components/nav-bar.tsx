@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { IoSearch } from "react-icons/io5";
 
@@ -8,15 +9,23 @@ const Navbar = () => {
       <div>
         <Image
           src="/download-removebg-preview.png"
+          width={128}
+          height={64}
           alt=""
           className="w-32 h-16"
         />
       </div>
       <div>
         <ul className="list-none flex gap-10 items-center font-medium">
-          <li className="hover:text-blue-600">Home</li>
-          <li className="hover:text-blue-600">Jobs</li>
-          <li className="hover:text-blue-600">Service</li>
+          <Link href="/">
+            <li className="hover:text-blue-600">Home</li>
+          </Link>
+          <Link href="/details">
+            <li className="hover:text-blue-600">Jobs</li>
+          </Link>
+          <Link href="/service">
+            <li className="hover:text-blue-600">Service</li>
+          </Link>
           <li className="hover:text-blue-600">Contact Us</li>
           <li className="hover:text-blue-600">Blog</li>
           <li className="hover:text-blue-600">About Us</li>
@@ -26,7 +35,7 @@ const Navbar = () => {
         <IoSearch />
         <input
           type="search"
-          className="p-2 bg-white outline-none border-none"
+          className="p-2 bg-white outline-none border-none rounded-md"
           placeholder="search"
         />
       </div>

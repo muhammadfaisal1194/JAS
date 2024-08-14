@@ -45,6 +45,8 @@ const Page = () => {
               <Image
                 src="https://st3.depositphotos.com/43745012/44906/i/450/depositphotos_449066958-stock-photo-financial-accounting-logo-financial-logo.jpg"
                 alt=""
+                width={96}
+                height={96}
                 className="w-24 h-24 rounded-full border"
               />
               <div className="grid gap-2">
@@ -119,13 +121,13 @@ const Page = () => {
                 </div>
               </span>
             </div>
-            <div className="w-[85rem] flex flex-col gap-6">
+            <div className="w-[100rem] flex flex-col gap-6">
               <div className="flex items-center p-4 border-2 border-[#E7F0FA]">
                 <div className="text-center">
                   <p className="text-[#18191C] text-base font-medium">
                     Salary (RS:)
                   </p>
-                  <h1 className="text-[#0BA02C] text-xl font-medium">
+                  <h1 className="text-[#0BA02C] text-lg font-medium">
                     100,000 - 120,000
                   </h1>
                   <p className="text-[#767F8C] text-sm">Monthly salary</p>
@@ -232,6 +234,8 @@ const Page = () => {
                 <div className="flex items-center gap-4">
                   <Image
                     src="/download-removebg-preview.png"
+                    width={56}
+                    height={56}
                     alt=""
                     className="w-14 h-14 rounded-full border"
                   />
@@ -260,6 +264,8 @@ const Page = () => {
                 <div className="flex items-center gap-4">
                   <Image
                     src="/download-removebg-preview.png"
+                    width={56}
+                    height={56}
                     alt=""
                     className="w-14 h-14 rounded-full border"
                   />
@@ -288,6 +294,8 @@ const Page = () => {
                 <div className="flex items-center gap-4">
                   <Image
                     src="/download-removebg-preview.png"
+                    width={56}
+                    height={56}
                     alt=""
                     className="w-14 h-14 rounded-full border"
                   />
@@ -318,6 +326,8 @@ const Page = () => {
                 <div className="flex items-center gap-4">
                   <Image
                     src="/download-removebg-preview.png"
+                    width={56}
+                    height={56}
                     alt=""
                     className="w-14 h-14 rounded-full border"
                   />
@@ -346,6 +356,8 @@ const Page = () => {
                 <div className="flex items-center gap-4">
                   <Image
                     src="/download-removebg-preview.png"
+                    width={56}
+                    height={56}
                     alt=""
                     className="w-14 h-14 rounded-full border"
                   />
@@ -374,6 +386,8 @@ const Page = () => {
                 <div className="flex items-center gap-4">
                   <Image
                     src="/download-removebg-preview.png"
+                    width={56}
+                    height={56}
                     alt=""
                     className="w-14 h-14 rounded-full border"
                   />
