@@ -1,0 +1,17 @@
+[
+  {
+    "type": "Hourly",
+    "rate": 20000,
+    "currency": "RS"
+  },
+  {
+    "type": "Monthly",
+    "amount": 30000,
+    "currency": "RS"
+  },
+  {
+    "type": "Annual",
+    "amount": 60000,
+    "currency": "RS"
+  }
+]
