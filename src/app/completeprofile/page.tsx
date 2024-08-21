@@ -12,6 +12,7 @@ import { FiPlusCircle } from "react-icons/fi";
 import Image from "next/image";
 import LinearProgress from "@mui/material/LinearProgress";
 import Businesstype from "@/data/businesstype.json";
+
 const Completeprofile = () => {
   const [openTab2, setOpenTab2] = React.useState(1);
   const [isOpen, setIsOpen] = React.useState(false);

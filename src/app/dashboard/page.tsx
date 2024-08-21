@@ -1691,7 +1691,7 @@ const Dashbord = () => {
                           </div>
                         </div>
                         <hr className="my-6" />
-                        {/* job alerts */}
+                        {/* Change password */}
                         <div className="grid gap-6">
                           <h1 className="text-lg font-medium">
                             Change Password

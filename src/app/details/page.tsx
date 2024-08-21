@@ -1,37 +1,15 @@
 "use client";
 import Navbar from "@/components/nav-bar";
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import { IoSearch } from "react-icons/io5";
-import cities from "./../../data/cities.json";
 import { GiSettingsKnobs } from "react-icons/gi";
-import { FaLocationDot } from "react-icons/fa6";
 import Pagination from "@mui/material/Pagination";
 import Footer from "@/components/footer";
 import Image from "next/image";
 import Link from "next/link";
-
+import Citydropdown from "@/components/dropdowns/citydropdown";
 const Page = () => {
-  const catMenu = useRef<HTMLDivElement | null>(null);
-  const [isOpen, setIsOpen] = React.useState(false);
-
-  const closeOpenMenus = (e: MouseEvent) => {
-    if (
-      isOpen &&
-      catMenu.current &&
-      !catMenu.current.contains(e.target as Node)
-    ) {
-      setIsOpen(false);
-    }
-  };
-  useEffect(() => {
-    document.addEventListener("mousedown", closeOpenMenus);
-    return () => {
-      document.removeEventListener("mousedown", closeOpenMenus);
-    };
-  }, [isOpen]);
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-  };
+  const [cities, setCities] = React.useState(false);
 
   return (
     <div>
@@ -59,39 +37,8 @@ const Page = () => {
             />
           </div>
           {/* city */}
-          <div ref={catMenu} className="relative inline-block border">
-            <button
-              type="button"
-              className="gap-4 w-72 px-6 p-3 bg-white font-medium rounded-lg text-sm inline-flex items-center"
-              onClick={toggleDropdown}
-            >
-              <FaLocationDot />
-              City
-            </button>
-
-            {isOpen && (
-              <div className="absolute left-0 mt-2 h-96 w-72 overflow-y-auto  rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-                <div className="fixed z-10 bg-white h-20">
-                  <div className="flex m-4 bg-white gap-2  rounded-xl border items-center px-2 p-1">
-                    <IoSearch />
-                    <input
-                      type="search"
-                      className="p-2 bg-white focus:outline-none rounded-xl border-none"
-                      placeholder="search"
-                    />
-                  </div>
-                </div>
-                <ul className="relative p-4 w-full">
-                  <div className="mt-14">
-                    {cities.map((city) => (
-                      <li className="p-2 hover:bg-gray-100" key={city.name}>
-                        {city.name}
-                      </li>
-                    ))}
-                  </div>
-                </ul>
-              </div>
-            )}
+          <div className="w-[500px]">
+            <Citydropdown cities={cities} setCities={setCities} />
           </div>
           {/* Filters */}
           <div className="flex gap-4">
