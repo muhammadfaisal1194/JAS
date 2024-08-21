@@ -17,7 +17,7 @@ const Emailverification = () => {
           <h1 className="text-2xl font-medium">Email Verification</h1>
 
           <p className="text-gray-500 w-[450px] text-sm">
-            We've sent an verification to{" "}
+            We&apos;ve sent an verification to{" "}
             <a href="" className="text-gray-800 font-medium">
               chmahar335@gmallcom
             </a>{" "}
@@ -41,7 +41,7 @@ const Emailverification = () => {
               Verify My Account <FaArrowRight />
             </button>
             <p className="text-gray-500 text-sm">
-              Don't recieve any code!{" "}
+              Don&apos;t recieve any code!{" "}
               <a href="" className="text-blue-600 cursor-pointer font-medium">
                 Resend
               </a>

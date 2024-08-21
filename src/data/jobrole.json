@@ -1,0 +1,305 @@
+[
+  { "id": 1, "category": "Technology", "role": "Software Engineer" },
+  { "id": 2, "category": "Technology", "role": "Full-Stack Developer" },
+  { "id": 3, "category": "Technology", "role": "Frontend Developer" },
+  { "id": 4, "category": "Technology", "role": "Backend Developer" },
+  { "id": 5, "category": "Technology", "role": "IT Support Specialist" },
+  { "id": 6, "category": "Technology", "role": "Network Administrator" },
+  { "id": 7, "category": "Technology", "role": "Data Analyst" },
+  { "id": 8, "category": "Technology", "role": "Web Developer" },
+  { "id": 9, "category": "Technology", "role": "System Administrator" },
+  { "id": 10, "category": "Technology", "role": "Cybersecurity Specialist" },
+  { "id": 11, "category": "Technology", "role": "Technical Writer" },
+  { "id": 12, "category": "Technology", "role": "Cloud Engineer" },
+  { "id": 13, "category": "Local Jobs", "role": "Electrician" },
+  { "id": 14, "category": "Local Jobs", "role": "Plumber" },
+  { "id": 15, "category": "Local Jobs", "role": "Carpenter" },
+  { "id": 16, "category": "Local Jobs", "role": "Painter" },
+  { "id": 17, "category": "Local Jobs", "role": "Landscaper" },
+  { "id": 18, "category": "Local Jobs", "role": "Handyman" },
+  { "id": 19, "category": "Local Jobs", "role": "HVAC Technician" },
+  { "id": 20, "category": "Local Jobs", "role": "House Cleaner" },
+  { "id": 21, "category": "Local Jobs", "role": "Driver" },
+  { "id": 22, "category": "Local Jobs", "role": "Security Guard" },
+  { "id": 23, "category": "Local Jobs", "role": "Delivery Person" },
+  { "id": 24, "category": "Local Jobs", "role": "Maintenance Worker" },
+  { "id": 25, "category": "Industrial", "role": "Machine Operator" },
+  { "id": 26, "category": "Industrial", "role": "Factory Worker" },
+  { "id": 27, "category": "Industrial", "role": "Assembly Line Worker" },
+  { "id": 28, "category": "Industrial", "role": "Quality Control Inspector" },
+  { "id": 29, "category": "Industrial", "role": "Forklift Operator" },
+  { "id": 30, "category": "Industrial", "role": "Welder" },
+  { "id": 31, "category": "Industrial", "role": "CNC Machinist" },
+  { "id": 32, "category": "Industrial", "role": "Production Supervisor" },
+  { "id": 33, "category": "Industrial", "role": "Industrial Electrician" },
+  { "id": 34, "category": "Industrial", "role": "Safety Officer" },
+  { "id": 35, "category": "Industrial", "role": "Warehouse Worker" },
+  { "id": 36, "category": "Industrial", "role": "Material Handler" },
+  { "id": 37, "category": "Shops", "role": "Retail Sales Associate" },
+  { "id": 38, "category": "Shops", "role": "Cashier" },
+  { "id": 39, "category": "Shops", "role": "Store Manager" },
+  { "id": 40, "category": "Shops", "role": "Visual Merchandiser" },
+  { "id": 41, "category": "Shops", "role": "Stock Clerk" },
+  { "id": 42, "category": "Shops", "role": "Butcher" },
+  { "id": 43, "category": "Shops", "role": "Baker" },
+  { "id": 44, "category": "Shops", "role": "Florist" },
+  { "id": 45, "category": "Shops", "role": "Pharmacy Technician" },
+  {
+    "id": 46,
+    "category": "Shops",
+    "role": "Customer Service Representative"
+  },
+  { "id": 47, "category": "Shops", "role": "Shop Assistant" },
+  { "id": 48, "category": "Shops", "role": "Inventory Manager" },
+  { "id": 49, "category": "Other Local Jobs", "role": "Taxi Driver" },
+  { "id": 50, "category": "Other Local Jobs", "role": "Barber" },
+  { "id": 51, "category": "Other Local Jobs", "role": "Hairdresser" },
+  { "id": 52, "category": "Other Local Jobs", "role": "Chef" },
+  { "id": 53, "category": "Other Local Jobs", "role": "Waiter/Waitress" },
+  { "id": 54, "category": "Other Local Jobs", "role": "Bartender" },
+  { "id": 55, "category": "Other Local Jobs", "role": "Childcare Worker" },
+  { "id": 56, "category": "Other Local Jobs", "role": "Fitness Instructor" },
+  { "id": 57, "category": "Other Local Jobs", "role": "Dog Walker" },
+  { "id": 58, "category": "Other Local Jobs", "role": "Pet Groomer" },
+  { "id": 59, "category": "Other Local Jobs", "role": "Receptionist" },
+  { "id": 60, "category": "Other Local Jobs", "role": "Event Planner" },
+  { "id": 61, "category": "Agriculture", "role": "Farmer" },
+  { "id": 62, "category": "Agriculture", "role": "Agricultural Technician" },
+  { "id": 63, "category": "Agriculture", "role": "Livestock Handler" },
+  { "id": 64, "category": "Agriculture", "role": "Irrigation Specialist" },
+  { "id": 65, "category": "Agriculture", "role": "Pesticide Applicator" },
+  {
+    "id": 66,
+    "category": "Agriculture",
+    "role": "Agricultural Equipment Operator"
+  },
+  { "id": 67, "category": "Agriculture", "role": "Dairy Farm Worker" },
+  { "id": 68, "category": "Agriculture", "role": "Farm Supervisor" },
+  { "id": 69, "category": "Agriculture", "role": "Poultry Worker" },
+  { "id": 70, "category": "Agriculture", "role": "Agronomist" },
+  { "id": 71, "category": "Construction", "role": "Construction Laborer" },
+  { "id": 72, "category": "Construction", "role": "Bricklayer" },
+  { "id": 73, "category": "Construction", "role": "Mason" },
+  { "id": 74, "category": "Construction", "role": "Steel Fixer" },
+  { "id": 75, "category": "Construction", "role": "Site Supervisor" },
+  { "id": 76, "category": "Construction", "role": "Construction Foreman" },
+  { "id": 77, "category": "Construction", "role": "Civil Engineer" },
+  { "id": 78, "category": "Construction", "role": "Architect" },
+  { "id": 79, "category": "Construction", "role": "Surveyor" },
+  { "id": 80, "category": "Construction", "role": "Quantity Surveyor" },
+  {
+    "id": 81,
+    "category": "Construction",
+    "role": "Heavy Equipment Operator"
+  },
+  { "id": 82, "category": "Construction", "role": "Scaffolder" },
+  {
+    "id": 83,
+    "category": "Textile and Garment Industry",
+    "role": "Textile Worker"
+  },
+  { "id": 84, "category": "Textile and Garment Industry", "role": "Tailor" },
+  {
+    "id": 85,
+    "category": "Textile and Garment Industry",
+    "role": "Embroidery Specialist"
+  },
+  {
+    "id": 86,
+    "category": "Textile and Garment Industry",
+    "role": "Garment Cutter"
+  },
+  {
+    "id": 87,
+    "category": "Textile and Garment Industry",
+    "role": "Sewing Machine Operator"
+  },
+  {
+    "id": 88,
+    "category": "Textile and Garment Industry",
+    "role": "Quality Checker"
+  },
+  {
+    "id": 89,
+    "category": "Textile and Garment Industry",
+    "role": "Textile Designer"
+  },
+  {
+    "id": 90,
+    "category": "Textile and Garment Industry",
+    "role": "Production Manager"
+  },
+  {
+    "id": 91,
+    "category": "Textile and Garment Industry",
+    "role": "Dyeing Technician"
+  },
+  {
+    "id": 92,
+    "category": "Textile and Garment Industry",
+    "role": "Pattern Maker"
+  },
+  { "id": 93, "category": "Education", "role": "Teacher" },
+  { "id": 94, "category": "Education", "role": "Professor" },
+  { "id": 95, "category": "Education", "role": "Academic Coordinator" },
+  { "id": 96, "category": "Education", "role": "School Principal" },
+  { "id": 97, "category": "Education", "role": "Librarian" },
+  { "id": 98, "category": "Education", "role": "Tutor" },
+  { "id": 99, "category": "Education", "role": "Lab Assistant" },
+  { "id": 100, "category": "Education", "role": "Curriculum Developer" },
+  { "id": 101, "category": "Education", "role": "Administrative Assistant" },
+  { "id": 102, "category": "Education", "role": "Career Counselor" },
+  { "id": 103, "category": "Healthcare", "role": "Doctor" },
+  { "id": 104, "category": "Healthcare", "role": "Nurse" },
+  { "id": 105, "category": "Healthcare", "role": "Pharmacist" },
+  {
+    "id": 106,
+    "category": "Healthcare",
+    "role": "Medical Laboratory Technician"
+  },
+  { "id": 107, "category": "Healthcare", "role": "Radiologist" },
+  { "id": 108, "category": "Healthcare", "role": "Physical Therapist" },
+  { "id": 109, "category": "Healthcare", "role": "Dentist" },
+  { "id": 110, "category": "Healthcare", "role": "Healthcare Administrator" },
+  { "id": 111, "category": "Healthcare", "role": "Paramedic" },
+  { "id": 112, "category": "Healthcare", "role": "Community Health Worker" },
+  { "id": 113, "category": "Healthcare", "role": "Hospital Attendant" },
+  {
+    "id": 114,
+    "category": "Government and Public Sector",
+    "role": "Civil Servant"
+  },
+  {
+    "id": 115,
+    "category": "Government and Public Sector",
+    "role": "Police Officer"
+  },
+  {
+    "id": 116,
+    "category": "Government and Public Sector",
+    "role": "Customs Officer"
+  },
+  {
+    "id": 117,
+    "category": "Government and Public Sector",
+    "role": "Tax Inspector"
+  },
+  {
+    "id": 118,
+    "category": "Government and Public Sector",
+    "role": "Postal Worker"
+  },
+  {
+    "id": 119,
+    "category": "Government and Public Sector",
+    "role": "Municipal Worker"
+  },
+  {
+    "id": 120,
+    "category": "Government and Public Sector",
+    "role": "Public Health Inspector"
+  },
+  {
+    "id": 121,
+    "category": "Government and Public Sector",
+    "role": "Welfare Officer"
+  },
+  {
+    "id": 122,
+    "category": "Government and Public Sector",
+    "role": "Public Relations Officer"
+  },
+  {
+    "id": 123,
+    "category": "Government and Public Sector",
+    "role": "District Administrator"
+  },
+  { "id": 124, "category": "Media and Communications", "role": "Journalist" },
+  {
+    "id": 125,
+    "category": "Media and Communications",
+    "role": "News Anchor"
+  },
+  {
+    "id": 126,
+    "category": "Media and Communications",
+    "role": "Radio Jockey"
+  },
+  {
+    "id": 127,
+    "category": "Media and Communications",
+    "role": "Video Editor"
+  },
+  {
+    "id": 128,
+    "category": "Media and Communications",
+    "role": "Photographer"
+  },
+  {
+    "id": 129,
+    "category": "Media and Communications",
+    "role": "Graphic Designer"
+  },
+  {
+    "id": 130,
+    "category": "Media and Communications",
+    "role": "Public Relations Officer"
+  },
+  {
+    "id": 131,
+    "category": "Media and Communications",
+    "role": "Content Writer"
+  },
+  {
+    "id": 132,
+    "category": "Media and Communications",
+    "role": "Social Media Manager"
+  },
+  {
+    "id": 133,
+    "category": "Media and Communications",
+    "role": "TV Producer"
+  },
+  {
+    "id": 134,
+    "category": "Hospitality and Tourism",
+    "role": "Hotel Manager"
+  },
+  { "id": 135, "category": "Hospitality and Tourism", "role": "Tour Guide" },
+  {
+    "id": 136,
+    "category": "Hospitality and Tourism",
+    "role": "Travel Agent"
+  },
+  {
+    "id": 137,
+    "category": "Hospitality and Tourism",
+    "role": "Restaurant Manager"
+  },
+  { "id": 138, "category": "Hospitality and Tourism", "role": "Chef" },
+  {
+    "id": 139,
+    "category": "Hospitality and Tourism",
+    "role": "Waiter/Waitress"
+  },
+  {
+    "id": 140,
+    "category": "Hospitality and Tourism",
+    "role": "Front Desk Clerk"
+  },
+  {
+    "id": 141,
+    "category": "Hospitality and Tourism",
+    "role": "Housekeeping Supervisor"
+  },
+  {
+    "id": 142,
+    "category": "Hospitality and Tourism",
+    "role": "Event Planner"
+  },
+  {
+    "id": 143,
+    "category": "Hospitality and Tourism",
+    "role": "Catering Manager"
+  }
+]
