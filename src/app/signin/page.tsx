@@ -21,7 +21,7 @@ const Signin = () => {
           <div className="flex flex-col gap-2">
             <h1 className="text-2xl font-medium">Sign In</h1>
             <p className="text-gray-500">
-              Don't have account{" "}
+              Don&apos;t have account{" "}
               <a href="" className="text-blue-600 cursor-pointer font-medium">
                 Create Account
               </a>

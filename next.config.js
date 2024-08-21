@@ -46,6 +46,10 @@ module.exports = {
         protocol: "https",
         hostname: "i0.wp.com",
       },
+      {
+        protocol: "https",
+        hostname: "plus.unsplash.com",
+      },
     ],
   },
 };

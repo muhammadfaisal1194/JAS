@@ -16,7 +16,7 @@ import { FaRegBookmark } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 
-const Profiles = () => {
+const Employesprofileforservice = () => {
   const [value, setValue] = useState<number | undefined>(undefined);
 
   function valueText(value: number): string {
@@ -249,4 +249,4 @@ const Profiles = () => {
   );
 };
 
-export default Profiles;
+export default Employesprofileforservice;
